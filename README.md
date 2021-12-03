@@ -10,4 +10,38 @@ Please refer to the [hackster](https://www.hackster.io/vinay-hariya/laser-securi
 
 <br>
 
-I will update the hackster.io website in the future.
+ Follow the steps perfectly for successful installtion:
+
+   - Ensure python is installed on your system. (Version 3.9 and above)
+   - Open the command promt (or equivalent) on the system.
+   - Navigate inside to the outer folder housing the project folders and files.
+   - Type the following command (instead of ```.env```, you can give any name)
+     
+     ```
+     python -m venv .env
+     ```
+
+   - Activate the ```.env``` virutal environment
+        - For Windows, type the following
+          ```
+          .\.env\scripts\activate
+          ```
+        - For Mac and Linux, type the following
+          ```
+          source .env/bin/activate
+          ```
+   - To install all the related packages, type ```pip3```:
+     
+     ```
+     pip3 install -r requirements.txt
+     ```
+
+   - Ensure the ```config.py``` data is set properly.
+
+   - Run the following command to start up the website: (```python3``` for mac and linux users)
+     
+     ```
+     python burglar_alarm.py
+     ```
+
+I will update the hackster .io website in the future.
