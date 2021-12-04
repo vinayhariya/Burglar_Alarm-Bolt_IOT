@@ -10,7 +10,7 @@ Please refer to the [hackster](https://www.hackster.io/vinay-hariya/laser-securi
 
 <br>
 
- Follow the steps perfectly for successful installtion:
+ Follow the steps perfectly for successful installation:
 
    - Ensure python is installed on your system. (Version 3.9 and above)
    - Open the command promt (or equivalent) on the system.
